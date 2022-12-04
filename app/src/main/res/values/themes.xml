@@ -1,0 +1,39 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+        <!-- Base application theme. -->
+        <style name="Theme.MyMovie." parent="Theme.MaterialComponents.DayNight.NoActionBar">
+            <!-- Primary brand color. -->
+            <item name="colorPrimary">#047BD5</item>
+            <item name="colorPrimaryVariant">@color/purple_700</item>
+            <item name="colorOnPrimary">@color/white</item>
+            <!-- Secondary brand color. -->
+            <item name="colorSecondary">@color/white</item>
+            <item name="colorSecondaryVariant">@color/white</item>
+            <item name="colorOnSecondary">@color/black</item>
+            <!-- Status bar color. -->
+            <item name="android:statusBarColor">@color/white</item>
+            <item name="windowNoTitle">true</item>
+            <item name="windowActionBar">false</item>
+            <item name="android:windowFullscreen">true</item>
+            <item name="android:windowContentOverlay">@null</item>
+            <!-- Customize your theme here. -->
+        </style>
+
+    <style name="Theme.Custome" parent="Theme.MaterialComponents.NoActionBar">
+        <item name="colorPrimary"> @color/black </item>
+        <item name="colorPrimaryDark"> @color/black </item>
+        <item name="colorSecondary">@color/white</item>
+        <item name="colorAccent">#9C27B0</item>
+
+    </style>
+    <style name="custome_edittext">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="singleLine">true</item>
+        <item name="android:textColor">#808080</item>
+        <item name="android:textStyle">bold</item>
+        <item name="maxLines">1</item>
+    </style>
+
+
+</resources>
